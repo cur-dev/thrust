@@ -1,0 +1,19 @@
+Package: thrust
+Type: Package
+Title: Thrust C++ Header Files
+Version: 1.8.2
+Description: TODO
+License: Apache License 2.0
+Depends:
+    R (>= 3.1.0)
+ByteCompile: yes
+BugReports: https://github.com/wrathematics/fastrand/issues
+Authors@R: c(
+    person("Drew", "Schmidt", role=c("aut", "cre"), email="wrathematics@gmail.com"),
+    person("Jared", "Hoberock", role="aut", comment="Thrust C++ library author"),
+    person("Nathan", "Bell", role="aut", comment="Thrust C++ library author"),
+    person("NVIDIA", role = "cph"),
+    person("ORNL", role = "cph")
+    )
+Maintainer: Drew Schmidt <wrathematics@gmail.com>
+RoxygenNote: 6.0.1

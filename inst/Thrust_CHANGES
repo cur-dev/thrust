@@ -1,0 +1,13 @@
+Changes made: 2017 Drew Schmidt
+
+For portability with tar (long file names), several name changes have been made.
+
+* Folders:
+    - specializations in thrust/system/cuda/detail/cub/block/ renamed to spec
+    - specializations in thrust/system/cuda/detail/cub/block_range/ renamed to spec
+    - specializations in thrust/system/cuda/detail/cub/blocksweep/ renamed to spec
+* Files:
+    - block_reduce_raking_commutative_only.cuh in thrust/system/cuda/detail/cub/block/spec/ renamed to block_reduce_raking_comm_only.cuh
+    - intermediate_type_from_functions_and_iterators.h in thrust/detail/type_traits/algorithm/ renamed to intermediate_type_from_fun_and_iter.h
+
+All source files referencing those files/folders are modified appropriately.
