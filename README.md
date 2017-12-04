@@ -6,7 +6,7 @@
 * **Author:** Drew Schmidt (package creator)
 
 
-Thrust is a high-level C++ library for developing parallel code to be run on either a GPU or a multicore processor.  It achieves this by selecting a "backend" at compilation time.  So you only have to write your code once, but you can target different hardware architectures.
+Thrust is a high-level C++ library for developing parallel code to be run on either a GPU or a multicore processor.  It achieves this by selecting a "backend" at compilation time.  Supported backends are multicore processors (OpenMP or Intel Thread Building Blocks) and NVIDIA GPU's (CUDA).  So you only have to write your code once, but you can target different hardware architectures.
 
 This is merely a convenient packaging of Thrust for use with R packages (I had nothing to do with creating the Thrust C++ library).  To use the package, simply set your `LinkingTo` field to include thrust (this package).  This is conceptually similar to the [BH package](https://cran.r-project.org/web/packages/BH/index.html) for Boost.
 
